@@ -1,0 +1,8 @@
+ALTER TABLE `users`
+DROP PRIMARY KEY,
+ADD  CONSTRAINT UNIQUE (username),
+ADD PRIMARY KEY `pk_users` (id);
+
+
+
+
